@@ -1,0 +1,55 @@
+.cardsContainer{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:24px;
+}
+
+.cardsContainer img{
+    height:240px;
+    width: 180px;
+    background-color: aliceblue;
+    border: 1px solid #FFDE00;
+    border-radius: 6px;
+
+    filter: drop-shadow(10px 10px 10px #ff1f1f);
+
+
+}
+
+.cardsContainer img:hover{
+
+    transform: scale(1.1);
+
+    filter: drop-shadow(10px 10px 10px #5db9ff);
+
+
+}
+
+.gameOver{
+    font-size: 64px;
+    color:#CE2211;
+}
+
+.play{
+    height: 80px;
+    width: 180px;
+    background-color: #37796C;
+    border-radius:12px;
+    border:none;
+    font-size: 32px;
+    color:#EFFCD5;
+    filter:drop-shadow(10px 10px 10px #929f78)
+}
+
+.play:hover{
+    background-color: #1a937b;
+    color:#eff6e0;
+    /* border-bottom: 1px solid #CE2211;
+    border-left: 1px solid #37796C;
+    border-top: 1px solid #1C4CBD;
+    border-right: 1px solid #EFFCD5; */
+
+}
